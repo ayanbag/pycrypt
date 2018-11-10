@@ -3,9 +3,9 @@ from setuptools import setup
 with open('README.md') as README:
     long_description = README.read()
 setup(
-    name='PyCrypt_dev',
+    name='pycrypt_dev',
     version='0.1.dev1',
-    packages=['pycrypt', ],
+    packages=['py', ],
     license='MIT',
     description='A Python packege for Cryptographic algorithms',
     long_description=long_description,
@@ -20,7 +20,7 @@ setup(
         "License :: OSI Approved :: MIT License",
     ],
     entry_points=dict(console_scripts=[
-        'PyCrypt = pycrypt.pycrypt:main', ]),
+        'pycrypt =py.pycrypt:main', ]),
     url='https://github.com/ayanbag/pycrypt',
 
 )

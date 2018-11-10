@@ -20,7 +20,7 @@ From Pypi:
 
 Make sure you're using `python3` and have `pip` installed and enabled. On the command line, simply run:
 
-`pip install PyCrypt_dev`
+`pip install pycrypt_dev`
 
 And From GitHub Repo:
 
@@ -41,12 +41,12 @@ Install pydl and its dependencies
 
 To use **PyCrypt** in your programs, you have to import it : 
 
-`import pycrypt`
+`import py.pycrypt`
 
 
 * Reverse Cipher:
 
-`pycrypt.reverse.cipher(message)`
+`py.pycrypt.reverse.cipher(message)`
 
 where, message -> It is a set of characters or strings which you want to encrypt.
 
@@ -63,7 +63,7 @@ Output : Ayan
 
 * Caeser Cipher:
 
-`pycrypt.caesar_cipher(message,encode=False,decode=False)`
+`py.pycrypt.caesar_cipher(message,encode=False,decode=False)`
 
 where, message ->(string) It is a set of characters or strings which you want to encrypt or decrypt.
 
@@ -73,7 +73,7 @@ decode ->(Boolean) Set *True* if you want to decrypt the current cipher text.By 
 
 * ROT13 Cipher:
 
-`pycrypt.rot13_cipher(message)`
+`py.pycrypt.rot13_cipher(message)`
 
 where, message ->(string) It is a set of characters or strings which you want to encrypt.
 
@@ -82,7 +82,7 @@ where, message ->(string) It is a set of characters or strings which you want to
 To decrypt the current cipher text which is encrypted with ROT13 Cipher,
 
 ~~~~
-from pycrypt import rot13_cipher
+from py.pycrypt import rot13_cipher
 cipher_text="nlna'
 print(rot13_cipher(cipher_text))
 ~~~~
@@ -90,7 +90,7 @@ Output : ayan
 
 * XOR Cipher:
 
-`pycrypt.xor_cipher(message,key)`
+`py.pycrypt.xor_cipher(message,key)`
 
 where, message ->(string) It is a set of characters or strings which you want to encrypt.
 
@@ -101,7 +101,7 @@ key ->(string) Used to encrypt message.
 To decrypt the current cipher text which is encrypted with XOR Algoritms,
 
 ~~~~
-from pycrypt import xor_cipher
+from py.pycrypt import xor_cipher
 cipher_text="SHRZ'
 print(xor_cipher(cipher_text))
 ~~~~
@@ -109,7 +109,7 @@ Output : ayan
 
 * Affine Cipher:
 
-`pycrypt.affine_cipher(message,encode=False,decode=False)`
+`py.pycrypt.affine_cipher(message,encode=False,decode=False)`
 
 where, message ->(string) It is a set of characters or strings which you want to encrypt or decrypt.
 
@@ -119,7 +119,7 @@ decode ->(Boolean) Set *True* if you want to decrypt the current cipher text.By 
 
 * Viginere Cipher:
 
-`pycrypt.viginere_cipher(message,keyword='crypto',decencode=False,decode=False)`
+`py.pycrypt.viginere_cipher(message,keyword='crypto',decencode=False,decode=False)`
 
 where, message ->(string) It is a set of characters or strings which you want to encrypt or decrypt.
 
@@ -133,8 +133,8 @@ decode ->(Boolean) Set *True* if you want to decrypt the current cipher text.By 
 
 PyCrypt comes with a interctive Help CLI. To activate the PyCrypt Help CLI , on the command line, simply run:
 
-`$ PyCrypt`
+`$ pycrypt`
 
 **or**
 
-`$ PyCrypt [Funtion_Name]`
+`$ pycrypt [Funtion_Name]`
