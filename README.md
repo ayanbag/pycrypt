@@ -6,7 +6,7 @@ A collection of **cryptographic algorithms** like Reverse Cipher , Caeser Cipher
 
 # Algoritms include:
 
-Till now I am able include only a handfull of cryptograhic algoritms and **looking forward to add more**.The algorithms included in PyCrypt package :
+Till now I am able include only a handfull of cryptograhic algoritms and **looking forward to add more**.The algorithms included in pycrypt package :
 * Reverse Cipher
 * Caeser Cipher
 * ROT13 Cipher
