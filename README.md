@@ -130,6 +130,7 @@ decode ->(Boolean) Set *True* if you want to decrypt the current cipher text.By 
 # PyCrypt CLI
 
 PyCrypt comes with a interctive Help CLI. To activate the PyCrypt Help CLI , on the command line, simply run:
+
 `$ PyCrypt`
 
 **or**
