@@ -1,7 +1,7 @@
 import pyperclip
 import optparse,sys,os
 #Usage
-usage = "pycrypt [options]"
+usage = "PyCrypt [option]"
 #Version
 Version= "PyCrypt/0.1.dev1"
 #=============Reverse Cipher================
