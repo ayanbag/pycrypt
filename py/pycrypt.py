@@ -128,7 +128,7 @@ def viginere_cipher(message, keyword="crypto",encode=False,decode=False):
 #============Help Console==================
 
 def load():
-    help_cmd={'RevCp': 'To view Synatx of Reverse Cipher','CaeCp':'To view Synatx of Caeser Cipher',
+    help_cmd={'RevCp': 'To view Synatx of Reverse Cipher','CaeCp':'To view Synatx of Caesar Cipher',
     'ROTCp':'To view Synatx of ROT13 Cipher','XORCp':'To view Synatx of XOR Cipher',
     'AffCp':'To view Synatx of Affine Cipher','VigCp':'To view Synatx of Vignere Cipher'}
     print("CLI to interact with PyCrypt help")
