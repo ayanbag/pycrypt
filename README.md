@@ -8,7 +8,7 @@ A collection of **cryptographic algorithms** like Reverse Cipher , Caeser Cipher
 
 Till now I am able include only a handfull of cryptograhic algoritms and **looking forward to add more**.The algorithms included in pycrypt package :
 * Reverse Cipher
-* Caeser Cipher
+* Caesar Cipher
 * ROT13 Cipher
 * XOR Cipher
 * Affine Cipher
@@ -61,7 +61,7 @@ print(reverse_cipher(cipher_text))
 ~~~~
 Output : Ayan
 
-* Caeser Cipher:
+* Caesar Cipher:
 
 `py.pycrypt.caesar_cipher(message,encode=False,decode=False)`
 
