@@ -2,6 +2,8 @@
 
 A collection of **cryptographic algorithms** like Reverse Cipher , Caeser Cipher and many more to be used in encryption srcipts.It is easy to use and can be implement in any scripts with little or no knowledge of Cryptography.
 
+**It is still in devolopment**
+
 # Algoritms include:
 
 Till now I am able include only a handfull of cryptograhic algoritms and **looking forward to add more**.The algorithms included in PyCrypt package :
@@ -18,7 +20,7 @@ From Pypi:
 
 Make sure you're using `python3` and have `pip` installed and enabled. On the command line, simply run:
 
-`pip install PyCrypt_mod`
+`pip install PyCrypt_dev`
 
 And From GitHub Repo:
 

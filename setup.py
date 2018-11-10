@@ -3,7 +3,7 @@ from setuptools import setup
 with open('README.md') as README:
     long_description = README.read()
 setup(
-    name='PyCrypt_mod',
+    name='PyCrypt_dev',
     version='0.1.dev1',
     packages=['pycrypt', ],
     license='MIT',
