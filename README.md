@@ -55,7 +55,7 @@ where, message -> It is a set of characters or strings which you want to encrypt
 To decrypt the current cipher text which is encrypted with Reverse Cipher,
 
 ~~~~
-from pycrypt import reverse_cipher
+from py.pycrypt import reverse_cipher
 cipher_text="nayA'
 print(reverse_cipher(cipher_text))
 ~~~~
