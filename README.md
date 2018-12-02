@@ -1,3 +1,6 @@
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://www.python.org/)
+
 # PyCrypt
 
 A collection of **cryptographic algorithms** like Reverse Cipher , Caeser Cipher and many more to be used in encryption srcipts.It is easy to use and can be implement in any scripts with little or no knowledge of Cryptography.
