@@ -5,7 +5,7 @@
 
 A collection of **cryptographic algorithms** like Reverse Cipher , Caeser Cipher and many more to be used in encryption scripts.It is easy to use and can be implement in any scripts with little or no knowledge of Cryptography.
 
-**It is still in devolopment**
+
 
 # Algoritms include:
 
